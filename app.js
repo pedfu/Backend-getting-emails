@@ -4,8 +4,8 @@ const port = 3000;
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 mailchimp.setConfig({
-  apiKey: "46eb1d975de6bf513e2e1bd7fb423e71",
-  server: "us14"
+  apiKey: "API_KEY",
+  server: "SERVER"
 });
 
 app.use(express.urlencoded({
@@ -23,7 +23,7 @@ app.post("/", function(req, res) {
       const firstName = req.body.firstName;
       const lastName = req.body.lastName;
       const email = req.body.email;
-      const listId = "82aad572fa";
+      const listId = "LIST_ID";
       console.log(firstName);
       console.log(lastName);
       console.log(email);
