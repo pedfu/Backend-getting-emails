@@ -3,3 +3,5 @@ A simple interface that allow me to get client informations, such as first and l
 
 ## Informations to test the program
 You can have a demo version by access this [link](https://obscure-retreat-57209.herokuapp.com/)
+
+Obs.: after registerign, the webpage will probably show a error page since I took out the API key and ID.
